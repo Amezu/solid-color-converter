@@ -4,12 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class ColorModel {
-    protected List<Integer> channels = new ArrayList<>();
+    private List<Integer> channels = new ArrayList<>();
 
-    protected int numberOfChannels;
-    protected int max;
-    protected int min;
-    protected String suffix;
+    private final int numberOfChannels;
+    private final int min;
+    private final int max;
+    private final String suffix;
+
+    ColorModel(int numberOfChannels, int min, int max, String suffix) {
+        this.numberOfChannels = numberOfChannels;
+        this.min = min;
+        this.max = max;
+        this.suffix = suffix;
+    }
 
     public List<Integer> getChannels() {
         return channels;
@@ -23,14 +30,6 @@ public abstract class ColorModel {
         return numberOfChannels;
     }
 
-    public int getMin() {
-        return min;
-    }
-
-    public int getMax() {
-        return max;
-    }
-
     public List<Double> extractNormalizedChannels() {
         ArrayList<Double> normalizedChannels = new ArrayList<>();
         for(Integer channel: channels)
@@ -39,16 +38,27 @@ public abstract class ColorModel {
         return normalizedChannels;
     }
 
-    public void addChannelValue(Integer value) {
-        channels.add(value);
+    public void setChannel(int index, Integer value) {
+//        if(value < min || value > max)
+//            TODO: Exception
+        channels.add(index, value);
+    }
+
+    public void setChannel(int index, Double normalizedValue) {
+        Integer value = (int) Math.round(normalizedValue*max);
+//        if(value < min || value > max)
+//            TODO: Exception
+        channels.add(index, value);
     }
 
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder(this.getClass().getSimpleName().toLowerCase() + "(");
-        for(int i = 0; i < numberOfChannels-1; ++i)
-            stringBuilder.append(channels.get(i) + suffix +  ", ");
-        stringBuilder.append(channels.get(numberOfChannels-1) + suffix +  ")");
+        for(int i = 0; i < numberOfChannels; ++i) {
+            stringBuilder.append(channels.get(i));
+            stringBuilder.append(suffix);
+            stringBuilder.append(i != numberOfChannels-1 ? ", " : ")");
+        }
         return stringBuilder.toString();
     }
 }

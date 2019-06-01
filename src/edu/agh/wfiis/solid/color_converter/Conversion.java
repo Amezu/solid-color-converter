@@ -1,20 +1,19 @@
 package edu.agh.wfiis.solid.color_converter;
 
 public class Conversion {
-    private ColorModel color;
-    private String targetRepresentation;
+    private ColorModel colorToConvert;
+    private String typeOfConversion;
 
-    Conversion(ColorModel color, String targetRepresentation) {
-        this.color = color;
-        this.targetRepresentation = targetRepresentation;
+    Conversion(ColorModel colorToConvert, String typeOfConversion) {
+        this.colorToConvert = colorToConvert;
+        this.typeOfConversion = typeOfConversion;
     }
 
-    public ColorModel getColor() {
-        return color;
+    public ColorModel getColorToConvert() {
+        return colorToConvert;
     }
 
-    @Override
-    public String toString() {
-        return color.getClass().getSimpleName() + " to " + targetRepresentation.toUpperCase();
+    public String getTypeOfConversion() {
+        return typeOfConversion;
     }
 }

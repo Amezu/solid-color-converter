@@ -4,18 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RGB extends ColorModel {
+    RGB()
     {
-        numberOfChannels = 3;
-        max = 255;
-        min = 0;
-        suffix = "";
-    }
-
-    RGB() {}
-
-    RGB(double r, double g, double b) {
-        addChannelValue((int) Math.round(r*max));
-        addChannelValue((int) Math.round(g*max));
-        addChannelValue((int) Math.round(b*max));
+        super(3, 0, 255, "");
     }
 }
