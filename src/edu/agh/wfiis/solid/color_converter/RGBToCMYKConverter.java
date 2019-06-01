@@ -3,11 +3,11 @@ package edu.agh.wfiis.solid.color_converter;
 import java.util.List;
 
 public class RGBToCMYKConverter implements Converting {
-    public RepresentingColor convert(RepresentingColor color) {
-        List<Double> components = color.extractNormalizedComponents();
-        Double r = components.get(0);
-        Double g = components.get(1);
-        Double b = components.get(2);
+    public ColorModel convert(ColorModel color) {
+        List<Double> channels = color.extractNormalizedChannels();
+        Double r = channels.get(0);
+        Double g = channels.get(1);
+        Double b = channels.get(2);
 
         Double max = Math.max(Math.max(r, g), b);
         Double k = 1 - max;

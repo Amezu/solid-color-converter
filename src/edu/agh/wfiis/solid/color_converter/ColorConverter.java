@@ -3,9 +3,11 @@ package edu.agh.wfiis.solid.color_converter;
 public class ColorConverter {
 
     public void convert(String[] input, HandlingResult resultHandler) {
+        for(String s: input)
+            System.out.println(s);
         Conversion conversion = ConversionParser.parse(input);
         Converting converter = ConverterChooser.choose(conversion);
-        RepresentingColor result = converter.convert(conversion.getColor());
+        ColorModel result = converter.convert(conversion.getColor());
         resultHandler.handle(result);
     }
 

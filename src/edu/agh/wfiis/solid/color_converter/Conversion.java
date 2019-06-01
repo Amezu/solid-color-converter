@@ -1,15 +1,15 @@
 package edu.agh.wfiis.solid.color_converter;
 
 public class Conversion {
-    private RepresentingColor color;
+    private ColorModel color;
     private String targetRepresentation;
 
-    Conversion(RepresentingColor color, String targetRepresentation) {
+    Conversion(ColorModel color, String targetRepresentation) {
         this.color = color;
         this.targetRepresentation = targetRepresentation;
     }
 
-    public RepresentingColor getColor() {
+    public ColorModel getColor() {
         return color;
     }
 
