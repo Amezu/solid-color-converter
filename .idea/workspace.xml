@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5733602-aad3-4cf4-96ec-a7401c5ed3d6" name="Default Changelist" comment="exceptions, minor fixes">
+      <change afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorConversionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYKToRGBConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYKToRGBConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConversionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConverterChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConverterChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/HandlingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/HandlingResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ModelChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGBToCMYKConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGBToCMYKConverter.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConversionParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelChooser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConsolePrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/HandlingResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGBToCMYKConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c</find>
+      <find>y</find>
+      <find>input[0].indexOf(&quot;(&quot;)+1</find>
+      <find>input</find>
+      <find>MODELS_BY_NAMES</find>
+      <find>model</find>
+      <find>100</find>
+      <find>int</find>
+      <find>double</find>
+      <find>private</find>
+      <find>components</find>
+      <find>private static</find>
+      <find>static</find>
+      <find>println</find>
+      <find>/*static*/</find>
+      <find>addChanne</find>
+      <find>addChannel</find>
+      <find>getSu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>m</replace>
+      <replace>ym</replace>
+      <replace>y</replace>
+      <replace>k</replace>
+      <replace>r</replace>
+      <replace>g</replace>
+      <replace>b</replace>
+      <replace>string</replace>
+      <replace>CONVERTER_BY_TYPES</replace>
+      <replace>converter</replace>
+      <replace>max</replace>
+      <replace>color</replace>
+      <replace>double</replace>
+      <replace>Double</replace>
+      <replace>protected</replace>
+      <replace>channels</replace>
+      <replace>/*static*/</replace>
+      <replace>static</replace>
+      <replace>setChannel</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/Converter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ConvertRGBToCMYK.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ConvertCMYKToRGB.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ColorConverter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/Parser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/Conversion.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ConversionParser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/RGB.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ColorConverting.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/RepresentingColor.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/CMYK.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ColorParser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/RepresentationChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/ColorModelChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConvertCMYKToRGB.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/HandlingResults.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CmykToRgbConverter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RepresentingColor.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ModelChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Convertion.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorConverter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConverterChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYKToRGBConverter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYK.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converting.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/HandlingResult.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGB.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGBToCMYKConverter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelChooser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConsolePrinter.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Conversion.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelParser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorConverting.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConversionParser.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Color.java" />
+        <option value="$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="519" />
+    <option name="y" value="398" />
+    <option name="width" value="1064" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="solid-color-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solid-color-converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solid-color-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solid-color-converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solid-color-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solid-color-converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="color_converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.agh.wfiis.solid.color_converter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ColorConverter">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.agh.wfiis.solid.color_converter.Converter" />
+      <module name="solid-color-converter" />
+      <option name="PROGRAM_PARAMETERS" value="hsv(0, 0, 256) cmyk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.agh.wfiis.solid.color_converter.ColorModel" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="edu.agh.wfiis.solid.ColorConverter" />
+      <module name="solid-color-converter" />
+      <option name="PROGRAM_PARAMETERS" value="rgb(0, 191, 255) cmyk" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ColorConverter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ColorConverter" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5733602-aad3-4cf4-96ec-a7401c5ed3d6" name="Default Changelist" comment="" />
+      <created>1559314217157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559314217157</updated>
+    </task>
+    <task id="LOCAL-00001" summary="version 1">
+      <created>1559344068845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559344068845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="abstract class instead of interface, parsing color model in external class">
+      <created>1559351204922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559351204922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Conversion class; ColorModel: addChannel-&gt;setChannel, transferred methods from subclasses, variables made private final, subclasses have to use ColorModel constructor">
+      <created>1559408981218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559408981218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1842" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17676768" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917964" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24971941" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24915825" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32996634" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17508417" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917964" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24971941" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24915825" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32996634" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="version 1" />
+    <MESSAGE value="abstract class instead of interface, parsing color model in external class" />
+    <MESSAGE value="more methods in abstract class, Conversion class, addChannel-&gt;setChannel" />
+    <MESSAGE value="Conversion class; ColorModel: addChannel-&gt;setChannel, transferred methods from subclasses, variables made private final, subclasses have to use ColorModel constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conversion class; ColorModel: addChannel-&gt;setChannel, transferred methods from subclasses, variables made private final, subclasses have to use ColorModel constructor" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConvertCMYKToRGB.java" />
+    <entry file="jar://P:/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="457" column="16" selection-start-line="457" selection-start-column="16" selection-end-line="457" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYKToRGBConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConverterChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Conversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModelChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConsolePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/HandlingResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/RGBToCMYKConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/Converting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ConversionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/CMYK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/agh/wfiis/solid/color_converter/ColorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

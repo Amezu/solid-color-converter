@@ -3,6 +3,7 @@ package edu.agh.wfiis.solid.color_converter;
 import java.util.HashMap;
 
 public class ConverterChooser {
+
     private static final HashMap<String, Converting> CONVERTER_BY_TYPES = new HashMap<>();
 
     static {

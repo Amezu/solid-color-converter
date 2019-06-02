@@ -1,6 +1,7 @@
 package edu.agh.wfiis.solid.color_converter;
 
 public class Conversion {
+
     private ColorModel colorToConvert;
     private String typeOfConversion;
 

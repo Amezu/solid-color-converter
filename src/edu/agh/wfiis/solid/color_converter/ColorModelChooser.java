@@ -2,7 +2,8 @@ package edu.agh.wfiis.solid.color_converter;
 
 import java.util.HashMap;
 
-public class ModelChooser {
+public class ColorModelChooser {
+
     private static final HashMap<String, ColorModel> MODELS_BY_NAMES = new HashMap<>();
 
     static {

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class ColorModel {
+
     private List<Integer> channels = new ArrayList<>();
 
     private final int numberOfChannels;
@@ -16,10 +17,6 @@ public abstract class ColorModel {
         this.min = min;
         this.max = max;
         this.suffix = suffix;
-    }
-
-    public List<Integer> getChannels() {
-        return channels;
     }
 
     public String getSuffix() {
@@ -39,15 +36,18 @@ public abstract class ColorModel {
     }
 
     public void setChannel(int index, Integer value) {
-//        if(value < min || value > max)
-//            TODO: Exception
+        if(value < min || value > max)
+            throw new IllegalArgumentException(String.format("Wrong channel value: %d. Should be between %d and %d", value, min, max));
+
         channels.add(index, value);
     }
 
     public void setChannel(int index, Double normalizedValue) {
         Integer value = (int) Math.round(normalizedValue*max);
-//        if(value < min || value > max)
-//            TODO: Exception
+
+        if(value < min || value > max)
+            throw new IllegalArgumentException(String.format("Wrong channel value: %d. Should be between %d and %d", value, min, max));
+
         channels.add(index, value);
     }
 

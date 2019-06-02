@@ -3,6 +3,7 @@ package edu.agh.wfiis.solid.color_converter;
 import java.util.List;
 
 public class RGBToCMYKConverter implements Converting {
+
     public ColorModel convert(ColorModel color) {
         List<Double> channels = color.extractNormalizedChannels();
         Double r = channels.get(0);
