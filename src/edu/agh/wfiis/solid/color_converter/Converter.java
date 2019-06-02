@@ -5,7 +5,7 @@ public class Converter {
     public static void convert(String[] input, HandlingResult resultHandler) {
         Conversion conversion = ConversionParser.parse(input);
         Converting converter = ConverterChooser.choose(conversion.getTypeOfConversion());
-        ColorModel result = converter.convert(conversion.getColorToConvert());
+        Color result = converter.convert(conversion.getColorToConvert());
         resultHandler.handle(result);
     }
 
