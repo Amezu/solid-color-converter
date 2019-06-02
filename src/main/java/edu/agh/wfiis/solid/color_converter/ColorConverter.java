@@ -9,6 +9,7 @@ public class ColorConverter {
     }
 
     public static void main(String[] args) {
-        System.out.println(ColorConverter.convert(args).toString());
+        Color result = ColorConverter.convert(args);
+        System.out.println(result);
     }
 }

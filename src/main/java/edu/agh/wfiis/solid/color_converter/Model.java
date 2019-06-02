@@ -20,7 +20,7 @@ public abstract class Model {
     }
 
     public String getName() {
-        return getClass().getSimpleName();
+        return getClass().getSimpleName().toLowerCase();
     }
 
     protected void setMaxForChannel(int index, Integer max) {
