@@ -1,6 +1,6 @@
 package edu.agh.wfiis.solid.color_converter;
 
-public class Converter {
+public class ColorConverter {
 
     public static void convert(String[] input, HandlingResult resultHandler) {
         Conversion conversion = ConversionParser.parse(input);
@@ -10,6 +10,6 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        Converter.convert(args, new ConsolePrinter());
+        ColorConverter.convert(args, new ConsolePrinter());
     }
 }
