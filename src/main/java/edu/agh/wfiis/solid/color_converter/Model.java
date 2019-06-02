@@ -49,11 +49,6 @@ public class Model {
         return min.get(index);
     }
 
-    public void validateValueForChannel(int index, Integer value) {
-        if(value < min.get(index) || value > max.get(index))
-            throw new IllegalArgumentException(String.format("Wrong channel value: %d. Should be between %d and %d", value, min.get(index), max.get(index)));
-    }
-
     public String getSuffix(int index) {
         return suffix.get(index);
     }

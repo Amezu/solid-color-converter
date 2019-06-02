@@ -1,9 +1,6 @@
 package edu.agh.wfiis.solid.color_converter;
 
 import org.junit.Assert;
-import org.junit.Before;
-
-import static org.junit.Assert.*;
 
 public class RGBToCMYKConverterTest {
     private RGBToCMYKConverter underTest;
@@ -15,7 +12,7 @@ public class RGBToCMYKConverterTest {
 
     @org.junit.Test
     public void shouldConvert() {
-        Color color = new Color(ModelChooser.choose("rgb"));
+        Color color = new Color(ModelContainer.find("rgb"));
         color.setChannel(0, 255);
         color.setChannel(1, 0);
         color.setChannel(2, 0);

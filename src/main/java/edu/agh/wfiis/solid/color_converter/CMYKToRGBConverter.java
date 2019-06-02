@@ -11,7 +11,7 @@ public class CMYKToRGBConverter implements Converting {
         Double y = channels.get(2);
         Double k = channels.get(3);
 
-        Color result = new Color(ModelChooser.choose("rgb"));
+        Color result = new Color(ModelContainer.find("rgb"));
         result.setChannel(0, (1 - c) * (1 - k));
         result.setChannel(1, (1 - m) * (1 - k));
         result.setChannel(2, (1 - y) * (1 - k));

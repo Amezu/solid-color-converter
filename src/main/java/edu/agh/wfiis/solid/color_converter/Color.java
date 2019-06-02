@@ -3,7 +3,7 @@ package edu.agh.wfiis.solid.color_converter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Color {
+public final class Color {
 
     private Model model;
     private List<Integer> channels = new ArrayList<>();
@@ -23,14 +23,15 @@ public class Color {
     }
 
     public void setChannel(int index, Integer value) {
-        model.validateValueForChannel(index, value);
+        if(value < model.getMin(index) || value > model.getMax(index))
+            throw new IllegalArgumentException(String.format("Wrong channel value: %d. " +
+                    "Should be between %d and %d", value, model.getMin(index), model.getMax(index)));
         channels.add(index, value);
     }
 
     public void setChannel(int index, Double normalizedValue) {
         Integer value = (int) Math.round(normalizedValue*model.getMax(index));
-        model.validateValueForChannel(index, value);
-        channels.add(index, value);
+        setChannel(index, value);
     }
 
     public int getChannel(int index) {

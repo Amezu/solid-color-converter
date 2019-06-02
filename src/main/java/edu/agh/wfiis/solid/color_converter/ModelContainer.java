@@ -2,7 +2,7 @@ package edu.agh.wfiis.solid.color_converter;
 
 import java.util.HashMap;
 
-public class ModelChooser {
+public class ModelContainer {
 
     private static final HashMap<String, Model> MODELS_BY_NAMES = new HashMap<>();
 
@@ -18,7 +18,7 @@ public class ModelChooser {
         MODELS_BY_NAMES.put("hsl", hsl);
     }
 
-    public static Model choose(String string) {
+    public static Model find(String string) {
         Model model = MODELS_BY_NAMES.get(string.toLowerCase());
         if (model != null) {
             return model;

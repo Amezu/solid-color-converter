@@ -3,7 +3,7 @@ package edu.agh.wfiis.solid.color_converter;
 public class ColorParser {
 
     public static Color parse(String[] input) {
-        Model model = ModelChooser.choose(input[0].substring(0, input[0].indexOf("(")));
+        Model model = ModelContainer.find(input[0].substring(0, input[0].indexOf("(")));
         Color color = new Color(model);
 
         int numberOfChannels = model.getNumberOfChannels();
