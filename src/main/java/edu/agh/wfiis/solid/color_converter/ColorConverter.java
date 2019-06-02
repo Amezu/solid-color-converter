@@ -2,14 +2,13 @@ package edu.agh.wfiis.solid.color_converter;
 
 public class ColorConverter {
 
-    public static void convert(String[] input, HandlingResult resultHandler) {
+    public static Color convert(String[] input) {
         Conversion conversion = ConversionParser.parse(input);
         Converting converter = ConverterChooser.choose(conversion.getTypeOfConversion());
-        Color result = converter.convert(conversion.getColorToConvert());
-        resultHandler.handle(result);
+        return converter.convert(conversion.getColorToConvert());
     }
 
     public static void main(String[] args) {
-        ColorConverter.convert(args, new ConsolePrinter());
+        System.out.println(ColorConverter.convert(args).toString());
     }
 }

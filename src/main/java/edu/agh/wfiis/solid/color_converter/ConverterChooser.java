@@ -17,7 +17,7 @@ public class ConverterChooser {
             return converter;
         }
         else {
-            throw new IllegalArgumentException("Conversion from " + typeOfConversion + " is not supported");
+            throw new UnsupportedOperationException("Conversion from " + typeOfConversion + " is not supported");
         }
     }
 }

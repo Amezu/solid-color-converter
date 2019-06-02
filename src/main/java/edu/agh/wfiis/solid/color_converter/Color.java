@@ -33,8 +33,16 @@ public class Color {
         channels.add(index, value);
     }
 
+    public int getChannel(int index) {
+        return channels.get(index);
+    }
+
     public String getSuffix(int index) {
         return model.getSuffix(index);
+    }
+
+    public Model getModel() {
+        return model;
     }
 
     @Override
