@@ -13,7 +13,7 @@ public class RGBToCMYKConverter implements Converting {
         double max = Math.max(Math.max(r, g), b);
         Double k = 1 - max;
 
-        Color result = new Color(ModelContainer.find("cmyk"));
+        Color result = new Color(new CMYK());
         result.setChannel(0, (1 - r - k) / (1 - k));
         result.setChannel(1, (1 - g - k) / (1 - k));
         result.setChannel(2, (1 - b - k) / (1 - k));

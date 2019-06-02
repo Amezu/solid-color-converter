@@ -12,7 +12,7 @@ public class CMYKToRGBConverterTest {
 
     @org.junit.Test
     public void shouldConvert() {
-        Color color = new Color(ModelContainer.find("cmyk"));
+        Color color = new Color(ModelChooser.choose("cmyk"));
         color.setChannel(0, 100);
         color.setChannel(1, 0);
         color.setChannel(2, 0);
