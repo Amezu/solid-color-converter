@@ -20,7 +20,7 @@ public class ColorParserTest {
 
     @Test (expected = IllegalArgumentException.class)
     public void shouldFailWhenUnsupportedType() {
-        String input = "abc(0) cmyk";
+        String input = "abc(0, 0) cmyk";
         String[] args = input.split(" ");
         ColorParser.parse(args);
     }

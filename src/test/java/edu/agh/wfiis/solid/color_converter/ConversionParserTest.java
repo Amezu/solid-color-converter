@@ -19,4 +19,10 @@ public class ConversionParserTest {
         String[] args = input.split(" ");
         ConversionParser.parse(args);
     }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void shouldFailWhenNoInput() {
+        String[] args = {};
+        ConversionParser.parse(args);
+    }
 }

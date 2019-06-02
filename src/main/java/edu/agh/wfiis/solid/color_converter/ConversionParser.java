@@ -17,6 +17,9 @@ public class ConversionParser {
     }
 
     private static boolean isInputFormatRight(String[] input) {
+        if(input.length < 3)
+            return false;
+
         String suffixesPattern = "[%]?";
 
         if(!Pattern.matches("\\w+\\(\\-?[\\d]+" + suffixesPattern  + ",", input[0]))
