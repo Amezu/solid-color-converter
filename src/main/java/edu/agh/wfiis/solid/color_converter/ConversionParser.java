@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class ConversionParser {
 
     public static Conversion parse(String[] input) {
-        if(!isInputFormatRight(input))
+        if(!isInputFormatValid(input))
             throw new IllegalArgumentException("Wrong input format (Whitespaces are important!). Example input: rgb(255, 255, 255) cmyk");
 
         Color color = ColorParser.parse(input);
@@ -16,7 +16,7 @@ public class ConversionParser {
         return new Conversion(color, typeOfConversion);
     }
 
-    private static boolean isInputFormatRight(String[] input) {
+    private static boolean isInputFormatValid(String[] input) {
         if(input.length < 3)
             return false;
 

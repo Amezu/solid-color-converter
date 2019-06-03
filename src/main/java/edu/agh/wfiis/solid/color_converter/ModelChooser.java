@@ -4,16 +4,16 @@ import java.util.HashMap;
 
 public class ModelChooser {
 
-    private static final HashMap<String, Model> MODELS_BY_NAMES = new HashMap<>();
+    private static final HashMap<String, Model> MODELS_BY_NAME = new HashMap<>();
 
     static {
-        MODELS_BY_NAMES.put("rgb", new RGB());
-        MODELS_BY_NAMES.put("cmyk", new CMYK());
-        MODELS_BY_NAMES.put("hsl", new HSL());
+        MODELS_BY_NAME.put("rgb", new RGB());
+        MODELS_BY_NAME.put("cmyk", new CMYK());
+        MODELS_BY_NAME.put("hsl", new HSL());
     }
 
     public static Model choose(String string) {
-        Model model = MODELS_BY_NAMES.get(string.toLowerCase());
+        Model model = MODELS_BY_NAME.get(string.toLowerCase());
         if (model != null) {
             return model;
         }
