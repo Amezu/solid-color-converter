@@ -13,14 +13,13 @@ public class ConversionParserTest {
         Assert.assertEquals("rgb to cmyk", conversion.getTypeOfConversion());
     }
 
-    @Test (expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void shouldFailWhenWrongInputFormat() {
-        String input = "cmyk(0%,0%, 0%, 100%) rgb";
-        String[] args = input.split(" ");
+        String[] args = "rgb(255 255 255) cmyk".split(" ");
         ConversionParser.parse(args);
     }
 
-    @Test (expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void shouldFailWhenNoInput() {
         String[] args = {};
         ConversionParser.parse(args);
